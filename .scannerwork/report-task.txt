@@ -1,0 +1,6 @@
+projectKey=mern_ecommerce
+serverUrl=http://64.227.165.71:9000
+serverVersion=10.4.0.87286
+dashboardUrl=http://64.227.165.71:9000/dashboard?id=mern_ecommerce
+ceTaskId=0ad624da-3dee-4fff-bf41-803164598348
+ceTaskUrl=http://64.227.165.71:9000/api/ce/task?id=0ad624da-3dee-4fff-bf41-803164598348
