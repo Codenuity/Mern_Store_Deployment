@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nodeapp-deployment
-  namespace: node-app
   labels:
     app: nodeapp
 spec:
@@ -13,10 +12,10 @@ spec:
   template:
     metadata:
       labels:
-        app: nodeapp 
+        app: nodeapp
     spec:
       containers:
-      - name: nodeserver
-        image: codenuity/nodeapp:26
-        ports:
-        - containerPort: 3000
+        - name: nodeserver
+          image: codenuity/nodeapp:26
+          ports:
+            - containerPort: 3000
