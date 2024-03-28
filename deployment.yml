@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: nodeserver
-          image: codenuity/nodeapp:52
+          image: codenuity/nodeapp:53
           ports:
             - containerPort: 3000
